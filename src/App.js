@@ -13,27 +13,31 @@ const App = () => {
         get it right
       </p>
       <div className="d-flex justify-content-center align-items-center flex-column">
-        <div className="mb-4">
+        
           <Card
             img="https://img.freepik.com/vector-premium/retrato-mujer-joven_478440-98.jpg"
             txt="Lorem ipsum dolor sit amet consectetur adipiscing elit, facilisi elementum tempor nostra mi sed dictum accumsan, congue viverra massa iaculis malesuada vulputate. Lacus enim tempor nec varius urna pellentesque hendrerit tempus montes, integer praesent suscipit ad facilisis laoreet scelerisque vulputate fames, mus lobortis eget ridiculus vel risus pulvinar orci. Aenean magna auctor mi hac nascetur sollicitudin dictum eu odio diam bibendum, at dictumst feugiat nec penatibus rutrum pretium lectus vestibulum."
-            color='#FFC0CB'
+            color='azul'
           />
-        </div>
-        <div>
+            
           <Card
             img="https://img.freepik.com/vector-premium/retrato-hermoso-mujer-joven-pelo-largo_478440-141.jpg?w=826"
             txt = "Lorem ipsum dolor sit amet consectetur adipiscing elit, facilisi elementum tempor nostra mi sed dictum accumsan, congue viverra massa iaculis malesuada vulputate. Lacus enim tempor nec varius urna pellentesque hendrerit tempus montes, integer praesent suscipit ad facilisis laoreet scelerisque vulputate fames, mus lobortis eget ridiculus vel risus pulvinar orci. Aenean magna auctor mi hac nascetur sollicitudin dictum eu odio diam bibendum, at dictumst feugiat nec penatibus rutrum pretium lectus vestibulum."
-            color = "#90CAF9"
+            color = "amarillo"
           />
-        </div>
-        <div>
+
         <Card
             img="https://img.freepik.com/vector-premium/retrato-mujer-joven-belleza_573652-342.jpg"
             txt = "Lorem ipsum dolor sit amet consectetur adipiscing elit, facilisi elementum tempor nostra mi sed dictum accumsan, congue viverra massa iaculis malesuada vulputate. Lacus enim tempor nec varius urna pellentesque hendrerit tempus montes, integer praesent suscipit ad facilisis laoreet scelerisque vulputate fames, mus lobortis eget ridiculus vel risus pulvinar orci. Aenean magna auctor mi hac nascetur sollicitudin dictum eu odio diam bibendum, at dictumst feugiat nec penatibus rutrum pretium lectus vestibulum."
-            color='#66BB6A'
+            color='rosado'
           />
-        </div>
+
+          <Card 
+              img="https://img.freepik.com/vector-premium/retrato-femenino-foto-perfil-mujer-avatar-color_81894-6400.jpg?w=2000"
+              txt="Lorem ipsum dolor sit amet consectetur adipiscing elit, facilisi elementum tempor nostra mi sed dictum accumsan, congue viverra massa iaculis malesuada vulputate. Lacus enim tempor nec varius urna pellentesque hendrerit tempus montes, integer praesent suscipit ad facilisis laoreet scelerisque vulputate fames, mus lobortis eget ridiculus vel risus pulvinar orci. Aenean magna auctor mi hac nascetur sollicitudin dictum eu odio diam bibendum, at dictumst feugiat nec penatibus rutrum pretium lectus vestibulum."
+              color="verde"
+          
+          />
       </div>
     </div>
   );
